@@ -23,9 +23,6 @@ A B X Y Q
 4. Deploy a solidity verifier to Goerli/Mumbai Testnet.
 5. Call the verifyProof() method on the verifier contract and assert output is true.
 
-## Circuit Code 
-![1111](https://github.com/ursprash/zkSnark/assets/111697531/309f0a52-15eb-4f51-bb6c-df4ae0fced87)
-
 ## Step 
 1. Step 1: Install the required dependencies: npm install
 2. Step 2: Update Hardhat Configuration File
@@ -34,9 +31,6 @@ A B X Y Q
 5. Step 5: Verify the Deployment:
 After successfully deploying the contract, the script deploy.ts should print "true" in the terminal if the deployment is successful. If you encounter any issues, make sure to review your contract code and the Hardhat configuration.
 Remember that using a .env file to store private keys is a common practice to keep them secure. However, always ensure that you do not commit your .env file to version control systems to avoid leaking sensitive information. Additionally, be cautious when deploying contracts and make sure to test your code thoroughly before deploying it to the mainnet or any production environment.
-![output](https://github.com/ursprash/zkSnark/assets/111697531/2199270d-a71f-4856-97df-10d8d92dde65)
-
-
 ## Author
 ursprash
 
