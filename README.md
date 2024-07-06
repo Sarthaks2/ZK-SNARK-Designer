@@ -26,13 +26,14 @@ A B X Y Q
 ## Step 
 1. Step 1: Install the required dependencies: npm install
 2. Step 2: Update Hardhat Configuration File
-3. Step 3: Compile the Contract: npx hardhat compile
-4. Step 4: Deploy the Contract: npx hardhat run scripts/deploy.ts 
+3. Step 3: Compile the Contract.
+4. Step 4: Deploy the Contract. 
 5. Step 5: Verify the Deployment:
 After successfully deploying the contract, the script deploy.ts should print "true" in the terminal if the deployment is successful. If you encounter any issues, make sure to review your contract code and the Hardhat configuration.
 Remember that using a .env file to store private keys is a common practice to keep them secure. However, always ensure that you do not commit your .env file to version control systems to avoid leaking sensitive information. Additionally, be cautious when deploying contracts and make sure to test your code thoroughly before deploying it to the mainnet or any production environment.
 ## Author
-ursprash
+Sarthak
+- - -
 
 
 
